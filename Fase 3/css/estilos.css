@@ -1,0 +1,21 @@
+ header{
+     background-color: aquamarine;
+ }
+ nav{
+     background-color: azure;
+ }
+ section{
+     background-color: blanchedalmond;
+     grid-column: 1/4;
+ }
+ aside{
+     background-color: cornflowerblue;
+     grid-column: 4/5;
+ }
+ footer{
+     background-color: darkgoldenrod;
+ }
+ main{
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
